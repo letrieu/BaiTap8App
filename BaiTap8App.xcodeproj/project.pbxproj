@@ -12,6 +12,13 @@
 		452167FA1DD5E171009C2D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452167F81DD5E171009C2D15 /* Main.storyboard */; };
 		452167FC1DD5E171009C2D15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452167FB1DD5E171009C2D15 /* Assets.xcassets */; };
 		452167FF1DD5E171009C2D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452167FD1DD5E171009C2D15 /* LaunchScreen.storyboard */; };
+		452168071DD5F1EB009C2D15 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452168061DD5F1EB009C2D15 /* PostCell.swift */; };
+		452168091DD5F3BD009C2D15 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452168081DD5F3BD009C2D15 /* UIColorExtensions.swift */; };
+		4521680C1DD60725009C2D15 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521680B1DD60725009C2D15 /* APIManager.swift */; };
+		4521680E1DD62962009C2D15 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521680D1DD62962009C2D15 /* PopUpView.swift */; };
+		452168101DD62F36009C2D15 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4521680F1DD62F36009C2D15 /* CommentCell.swift */; };
+		45AF45A11DD6BD93001A17C1 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AF45A01DD6BD93001A17C1 /* LaunchScreenViewController.swift */; };
+		830C94E20CCED590B18F2145 /* Pods_BaiTap8App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A14C4341F3C42994415B483 /* Pods_BaiTap8App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,15 @@
 		452167FB1DD5E171009C2D15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		452167FE1DD5E171009C2D15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		452168001DD5E171009C2D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		452168061DD5F1EB009C2D15 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		452168081DD5F3BD009C2D15 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		4521680B1DD60725009C2D15 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		4521680D1DD62962009C2D15 /* PopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		4521680F1DD62F36009C2D15 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		45AF45A01DD6BD93001A17C1 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		5E61B84E9C57C50638277593 /* Pods-BaiTap8App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiTap8App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiTap8App/Pods-BaiTap8App.debug.xcconfig"; sourceTree = "<group>"; };
+		7A14C4341F3C42994415B483 /* Pods_BaiTap8App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BaiTap8App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0AA5A8C175302D497F2831E /* Pods-BaiTap8App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiTap8App.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiTap8App/Pods-BaiTap8App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830C94E20CCED590B18F2145 /* Pods_BaiTap8App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		385612FF37190BAE0CF8E217 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E61B84E9C57C50638277593 /* Pods-BaiTap8App.debug.xcconfig */,
+				E0AA5A8C175302D497F2831E /* Pods-BaiTap8App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		452167E81DD5E170009C2D15 = {
 			isa = PBXGroup;
 			children = (
 				452167F31DD5E171009C2D15 /* BaiTap8App */,
 				452167F21DD5E171009C2D15 /* Products */,
+				385612FF37190BAE0CF8E217 /* Pods */,
+				AF0184BA13D41A1411FB391F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +83,27 @@
 			isa = PBXGroup;
 			children = (
 				452167F41DD5E171009C2D15 /* AppDelegate.swift */,
+				452168081DD5F3BD009C2D15 /* UIColorExtensions.swift */,
+				452168061DD5F1EB009C2D15 /* PostCell.swift */,
+				4521680B1DD60725009C2D15 /* APIManager.swift */,
 				452167F61DD5E171009C2D15 /* ViewController.swift */,
 				452167F81DD5E171009C2D15 /* Main.storyboard */,
 				452167FB1DD5E171009C2D15 /* Assets.xcassets */,
 				452167FD1DD5E171009C2D15 /* LaunchScreen.storyboard */,
 				452168001DD5E171009C2D15 /* Info.plist */,
+				4521680D1DD62962009C2D15 /* PopUpView.swift */,
+				4521680F1DD62F36009C2D15 /* CommentCell.swift */,
+				45AF45A01DD6BD93001A17C1 /* LaunchScreenViewController.swift */,
 			);
 			path = BaiTap8App;
+			sourceTree = "<group>";
+		};
+		AF0184BA13D41A1411FB391F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A14C4341F3C42994415B483 /* Pods_BaiTap8App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 452168031DD5E171009C2D15 /* Build configuration list for PBXNativeTarget "BaiTap8App" */;
 			buildPhases = (
+				4202550819BD5E1C700154FF /* [CP] Check Pods Manifest.lock */,
 				452167ED1DD5E170009C2D15 /* Sources */,
 				452167EE1DD5E170009C2D15 /* Frameworks */,
 				452167EF1DD5E170009C2D15 /* Resources */,
+				0754F7A5977FDFB075AD85E7 /* [CP] Embed Pods Frameworks */,
+				18D67DC6F772CDDBDB2D28C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +176,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0754F7A5977FDFB075AD85E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiTap8App/Pods-BaiTap8App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18D67DC6F772CDDBDB2D28C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiTap8App/Pods-BaiTap8App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4202550819BD5E1C700154FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		452167ED1DD5E170009C2D15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +231,12 @@
 			files = (
 				452167F71DD5E171009C2D15 /* ViewController.swift in Sources */,
 				452167F51DD5E171009C2D15 /* AppDelegate.swift in Sources */,
+				45AF45A11DD6BD93001A17C1 /* LaunchScreenViewController.swift in Sources */,
+				4521680C1DD60725009C2D15 /* APIManager.swift in Sources */,
+				4521680E1DD62962009C2D15 /* PopUpView.swift in Sources */,
+				452168071DD5F1EB009C2D15 /* PostCell.swift in Sources */,
+				452168091DD5F3BD009C2D15 /* UIColorExtensions.swift in Sources */,
+				452168101DD62F36009C2D15 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +357,7 @@
 		};
 		452168041DD5E171009C2D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E61B84E9C57C50638277593 /* Pods-BaiTap8App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BaiTap8App/Info.plist;
@@ -270,6 +370,7 @@
 		};
 		452168051DD5E171009C2D15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0AA5A8C175302D497F2831E /* Pods-BaiTap8App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BaiTap8App/Info.plist;
@@ -299,6 +400,7 @@
 				452168051DD5E171009C2D15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
